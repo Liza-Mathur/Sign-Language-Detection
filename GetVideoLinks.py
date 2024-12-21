@@ -23,10 +23,10 @@ def getVideoLinks()-> dict:
 #         if url:
 #             all_urls.append((word,url))
 
-all_urls = getVideoLinks()
-urlcounts = {word: len(urls) for word, urls in all_urls.items()}
+if __name__ == "__main__":
+    all_urls = getVideoLinks()
+    urlcounts = {word: len(urls) for word, urls in all_urls.items()}
 #  I can do - urlcounts = urlcounts | {word : 1}
+    print(urlcounts)
+    print('I hope this works')
 
-print(urlcounts)
-
-print('I hope this works')
