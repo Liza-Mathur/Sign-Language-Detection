@@ -1,0 +1,3 @@
+1. Try getting the links of videos and imp metadata from json.
+2. Check for missing data if any. 
+3. Download the videos and keep their metadata.
